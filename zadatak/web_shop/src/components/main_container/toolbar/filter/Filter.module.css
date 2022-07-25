@@ -1,0 +1,23 @@
+.filter_container {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+}
+
+.filter_form {
+    width: 300px;
+    display: flex;
+
+
+}
+
+.filter_button:hover {
+    cursor: pointer;
+}
+
+.filter_button:disabled {
+    cursor: default;
+}
